@@ -17,6 +17,6 @@ connection = mysql.createConnection({
 });
 }
  
-
+connection.connect();
 // Export connection for our ORM to use.
 module.exports = connection;
